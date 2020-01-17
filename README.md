@@ -15,7 +15,7 @@ by *Jason Stocks*
 
 ## Program Setup Instructions
 in Git hub clone friday 17 project
-or copy hit hub link below and paste in Url
+or copy git hub link below and paste in Url
 ## Link to Site on GitHub Pages
 <a>https://github.com/jstocks01/Friday-17-project</a>
 
