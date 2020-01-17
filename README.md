@@ -1,6 +1,6 @@
 # Application Name
 
-Description of what the application is supposed to do.
+Friday project
 
 by *Jason Stocks*
 
@@ -13,12 +13,19 @@ by *Jason Stocks*
 * CSS
 
 ## Program Setup Instructions
-
+Click link to go to GIThub page
 ## Link to Site on GitHub Pages
+<a></a>
 
 ## Known Bugs
 
 There are no current known bugs.  
 
+## Description ##
+This the result of my work for the friday project.
+
 ## Copyright and License Information
 
+This software is licensed under the MIT license
+
+Copyright (c) 2020 Jason Stocks
