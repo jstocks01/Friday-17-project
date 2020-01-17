@@ -1,0 +1,15 @@
+h1 {
+ margin-left: 125px;
+}
+h2 {
+  center; color: rgb(223, 43, 97)
+}
+
+body {
+  background-color: bisque;
+}
+
+img.yoda {
+  float-left: 100px;
+  max-width: 225px;
+}
