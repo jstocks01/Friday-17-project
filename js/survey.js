@@ -1,10 +1,6 @@
 $(document).ready(function(){
 
-
-
 $("#submitsurvey").click(function(){
-
-
 
 event.preventDefault();
 
@@ -18,7 +14,6 @@ var sushi = parseInt($("#sushi").val());
 var total = beverage + starwars + travel + food + sushi;
 
 
-
 if (total < 7 ){
 alert("you should choose Ruby!");}
 
@@ -28,13 +23,8 @@ alert("you should choose C#!");}
 else if (total > 10 ){
  alert("you should choose python!");}
  
-
  }
  
-   
- 
-
 )
-
  event.preventDefault();
 })
