@@ -16,7 +16,7 @@ by *Jason Stocks*
 ## Program Setup Instructions
 Click link to go to GIThub page
 ## Link to Site on GitHub Pages
-<a></a>
+<a>https://github.com/jstocks01/Friday-17-project</a>
 
 ## Known Bugs
 
