@@ -27,9 +27,14 @@ alert("you should choose C#!");}
 
 else if (total > 10 ){
  alert("you should choose python!");}
+ 
 
  }
+ 
+   
+ 
 
 )
+
  event.preventDefault();
 })
