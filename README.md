@@ -4,13 +4,14 @@ Friday project
 
 by *Jason Stocks*
 
-1/10/2020
+1/17/2020
 
 ## Technologies Used
 
 * HTML
 * Bootstrap
 * CSS
+* jquery
 
 ## Program Setup Instructions
 Click link to go to GIThub page
