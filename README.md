@@ -1,6 +1,6 @@
 # Application Name
 
-Friday project
+Friday 17 project
 
 by *Jason Stocks*
 
@@ -14,7 +14,8 @@ by *Jason Stocks*
 * jquery
 
 ## Program Setup Instructions
-Click link to go to GIThub page
+in Git hub clone friday 17 project
+or copy hit hub link below and paste in Url
 ## Link to Site on GitHub Pages
 <a>https://github.com/jstocks01/Friday-17-project</a>
 
@@ -23,7 +24,9 @@ Click link to go to GIThub page
 There are no current known bugs.  
 
 ## Description ##
-This the result of my work for the friday project.
+This is my friday project. It is a two part exercise.
+the first questionare gives you a small amount of information on a coding language.
+The second questionare askes you multiple questions and gives you what it thinks you shpuld study in coding.
 
 ## Copyright and License Information
 
