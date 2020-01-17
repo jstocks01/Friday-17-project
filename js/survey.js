@@ -2,27 +2,17 @@ $(document).ready(function(){
 
 
 
-  $("#submitsurvey").click(function(){
+$("#submitsurvey").click(function(){
 
 
 
-    event.preventDefault();
+event.preventDefault();
 
-
-
-
-
-
-
-
-
-
-
-    var beverage = parseInt($("#beverage").val());
-    var starwars = parseInt($("#starwars").val());
-    var travel = parseInt($("#travel").val());
-    var food = parseInt($("#food").val());
-    var sushi = parseInt($("#sushi").val());
+var beverage = parseInt($("#beverage").val());
+var starwars = parseInt($("#starwars").val());
+var travel = parseInt($("#travel").val());
+var food = parseInt($("#food").val());
+var sushi = parseInt($("#sushi").val());
 
     
 var total = beverage + starwars + travel + food + sushi;
@@ -40,19 +30,6 @@ else if (total > 10 ){
 
  }
 
-
-
-
-
-
-
-
-
-
 )
-
  event.preventDefault();
-
-
-
 })
