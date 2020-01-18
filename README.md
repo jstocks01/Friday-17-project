@@ -26,7 +26,7 @@ There are no current known bugs.
 ## Description ##
 This is my friday project. It is a two part exercise.
 the first questionare gives you a small amount of information on a coding language.
-The second questionare askes you multiple questions and gives you what it thinks you shpuld study in coding.
+The second questionare askes you multiple questions and gives you what it thinks you should study in coding.
 
 ## Copyright and License Information
 
