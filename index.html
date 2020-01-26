@@ -1,153 +1,80 @@
 <!DOCTYPE html>
-
-
-
 <html lang="en">
-
-
-
-
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/survey.js"></script>
-
-
-
     <link rel="stylesheet" href="css/bootstrap.css">
-
-
-
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-<head>
-  <title>Here be coding! arrr.</title>
-
-  <h1>Coding, is it for you?</h1>
-</head>
-
-
-
-<body>
-<img src="img/code2.jpg" alt="coding goes here">
-<h2><em>Infromation about coding languages!</em></h2>
-<div class="container">
-
-<p>Please check one:</p>
-
+    <title>Here be coding! arrr.</title>
+    <h1>Coding, is it for you?</h1>
+  </head>
+  <body>
+    <img src="img/code2.jpg" alt="coding goes here">
+    <h2><em>Infromation about coding languages!</em></h2>
+    <div class="container">
+      <p>Please check one:</p>
       <div class="radio">
-      <label>
-
-
-
-        <input type="radio" name="Language" value="x" checked>Javascript 
-      </label>
-
-      </div>
-
-      <div class="radio">
-
         <label>
-
-          <input type="radio" name="Language" value="y">Ruby
-
+          <input type="radio" name="Language" value="x" checked>Javascript 
         </label>
-
       </div>
-
-
       <div class="radio">
-
-
-          <label>
-
-            <input type="radio" name="Language" value="">Python
-
-          </label>
-
+        <label>
+          <input type="radio" name="Language" value="y">Ruby
+        </label>
       </div>
-
+      <div class="radio">
+        <label>
+          <input type="radio" name="Language" value="">Python
+        </label>
+      </div>
       <div id= "Javascript">
-
-
-
-      <img src="img/java.jpg" alt="pic of JavaScript">
-
-
-
+        <img src="img/java.jpg" alt="pic of JavaScript">
         <p>JavaScript  often abbreviated as JS, is a high-level, just-in-time compiled, multi-paradigm programming language that conforms to the ECMAScript specification.[10] JavaScript has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</p>
-
-
-
       </div>
-
       <div id="Ruby">
-
-
-
-      <img src="img/ruby.jpg" alt="pic of Ruby">
-
-
-
-          <p>Ruby is an interpreted, high-level, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan. </p>
-
-
+        <img src="img/ruby.jpg" alt="pic of Ruby">
+        <p>Ruby is an interpreted, high-level, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan. </p>
       </div>
-
-
-
       <div id="Python">
-
-      <img src="img/python.jpg" alt="pic of Python">
-
-
-
-          <p>Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace.</p>
-
-
-
-       </div>
-          </div>
-          <button type="submit" class="btn" id="submit">Submit</button>
-          <h2>To find your possible path in coding answeer form.</h2>
-          <p>do you like?</p>
-
-          <select class="form-control" id="beverage">
-            <option value="1">Coffee</option>
-            <option value="2">Tea</option>
-            <option value="3">Kombucha</option>
-            <option value="4">Water</option>
-
-          </select>
-          <p>do you like Sushi?</p>
-          <select class="form-control" id="sushi">
-            <option value="1">yes</option>
-            <option value="2">no</option>
-          </select>
-
-          </select><p>do you like Star Wars?</p>
-          <select class="form-control" id="starwars">
-            <option value="1">yes</option>
-            <option value="2">no</option>
-          </select>
-
-          </select><p>Your favorite food?</p>
-          <select class="form-control" id="food">
-            <option value="1">Indian</option>
-            <option value="2">Japanese</option>
-            <option value="3">Russian</option>
-            <option value="4">American</option>
-          </select>
-          </select><p>do you like to travel?</p>
-          <select class="form-control" id="travel">
-            <option value="1">yes</option>
-            <option value="2">no</option>
-
-          </select>
-          <button type="submit" class="btn" id="submitsurvey">Submit</button>
-
-   
-</body>
+        <img src="img/python.jpg" alt="pic of Python">
+        <p>Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace.</p>
+      </div>
+    </div>
+    <div id="questions">
+      <button type="submit" class="btn" id="submit">Submit</button>
+      <h2>To find your possible path in coding answeer form.</h2>
+      <p>do you like?</p>
+      <select class="form-control" id="beverage">
+        <option value="1">Coffee</option>
+        <option value="2">Tea</option>
+        <option value="3">Kombucha</option>
+        <option value="4">Water</option>
+      </select>
+      <p>do you like Sushi?</p>
+      <select class="form-control" id="sushi">
+        <option value="1">yes</option>
+        <option value="2">no</option>
+      </select>
+      <p>do you like Star Wars?</p>
+      <select class="form-control" id="starwars">
+        <option value="1">yes</option>
+        <option value="2">no</option>
+      </select>
+      <p>Your favorite food?</p>
+      <select class="form-control" id="food">
+        <option value="1">Indian</option>
+        <option value="2">Japanese</option>
+        <option value="3">Russian</option>
+        <option value="4">American</option>
+      </select>
+      <p>do you like to travel?</p>
+      <select class="form-control" id="travel">
+        <option value="1">yes</option>
+        <option value="2">no</option>
+      </select>
+      <button type="submit" class="btn" id="submitsurvey">Submit</button>
+    </div> 
+  </body>
 </html>
