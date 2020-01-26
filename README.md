@@ -1,23 +1,25 @@
-# Application Name
+## Friday 17 project ##
 
-Friday 17 project
+1/17/2020 
 
 by *Jason Stocks*
 
-1/17/2020
 
-## Technologies Used
+
+## Technologies Used ##
 
 * HTML
 * Bootstrap
 * CSS
 * jquery
 
-## Program Setup Instructions
-in Git hub clone friday 17 project
-or copy git hub link below and paste in Url
+## Program Setup Instructions ##
+To install:
+
+Clone repository by entering in the terminal prompt "git clone" followed by the URL to this repository. Use the terminal to access the right directory using the prompt [cd "repository name"] Open in Visual Studio with the prompt "code ." Open the index.html in a browser.
 ## Link to Site on GitHub Pages
 <a>https://github.com/jstocks01/Friday-17-project</a>
+<a>https://jstocks01.github.io/Friday-17-project/</a>
 
 ## Known Bugs
 
